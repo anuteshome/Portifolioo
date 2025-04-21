@@ -1,0 +1,110 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.dark-mode .card{
+  background-color: var(--secondary);
+}
+
+.card {
+  background-color: var(--three);
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 40px;
+  max-width: 2000px;
+  margin: 0 auto;
+  overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+}
+
+.icons-container {
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left */
+  width: max-content; /* Allow the container to expand to fit all icons */
+  animation: slide-left 20s linear infinite; /* Adjust animation duration as needed */
+}
+
+.icon {
+  font-size: 40px;
+  margin: 0 20px; /* Adjust spacing between icons */
+  color: #333;
+  flex-shrink: 0; /* Prevent icons from shrinking */
+  margin-bottom: 5rem;
+}
+
+/* Dark mode styles */
+body.dark-mode .icon {
+  color: var(--primary);
+}
+.skill_title{
+  font-size:1.5rem;
+   font-family: 'Playfair Display',serif;
+ margin-bottom: 4rem;
+   text-align: center;
+   font-weight: 500;
+ }
+
+/* Keyframes for the sliding animation */
+@keyframes slide-left {
+  0% {
+    transform: translateX(0); /* Start from the original position */
+  }
+  100% {
+    transform: translateX(-50%); /* Move left by 50% of the container width */
+  }
+
+  
+}
+
+
+
+@media screen and (min-width:620px){
+  .icon {
+    font-size: 60px;
+  }
+
+  .card {
+    background-color: var(--three);
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+    margin-bottom: 3rem;
+  }
+.skill_title{
+ font-size:2.7rem;
+  font-family: 'Playfair Display',serif;
+margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+ 
+}
+
+
+@media screen and (min-width:960px){
+  .icon {
+    font-size: 80px;
+  }
+
+  .card {
+    background-color: var(--three);
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+    margin-bottom: 3rem;
+  }
+.skill_title{
+ font-size:3rem;
+  font-family: 'Playfair Display',serif;
+margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+ 
+}

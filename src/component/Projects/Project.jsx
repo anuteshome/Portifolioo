@@ -1,0 +1,163 @@
+import React,{useEffect} from 'react';
+import './Project.css'
+// library of aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+// images
+import sabroso from '../../assets/sab.png'
+import Devlivery from '../../assets/Delivery.png'
+import Book from '../../assets/Book.png'
+import AK from '../../assets/AK.png'
+import Apple from '../../assets/Apple.png'
+import Kuriftu from "../../assets/kuriftu.png"
+
+// icon
+
+import { FaGithub } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
+
+
+function Project() {
+      useEffect(()=>{
+             AOS.init({duration:1500});
+         },[]);
+    return (
+        <div className='Projects'>
+<div className="project1">
+<h1 className='project_title'>Project</h1>
+<div className="grid">
+    <div className="img">
+    <img className='img1' src={Kuriftu} alt="" data-aos="zoom-in-up"  />
+    </div>
+<div className="discription" data-aos="zoom-in-up">
+<h1 className='head'>Kuriftu Rewards</h1>
+<p>Kuriftu Rewards is a smart membership & loyalty program designed to elevate your stay.
+Earn points on bookings, dining, and spa — and redeem for exclusive perks.
+AI recommends personalized experiences based on your preferences.
+Get VIP benefits through Silver, Gold, and Platinum tiers.
+Our 24/7 chatbot, Kuri, helps with bookings, rewards, and instant support.
+Join today and let your loyalty unlock luxury with Kuriftu.</p>
+            <div className='buttons'><a href="https://github.com/anuteshome/Kuriftu_Resort" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+          <a href="https://kuriftuloyality.netlify.app/" target='blank'> <button className='btn4'>Live</button></a>  </div> 
+            <div className='stack'>            
+            <p> <FaCheckCircle />&nbsp;React</p>
+            <p><FaCheckCircle />&nbsp;Hooks</p>
+            <p><FaCheckCircle />&nbsp;Css</p>
+            </div>
+</div>
+</div>
+           
+            
+</div>
+
+<div className="project2">
+<div className="grid">
+    <div className='images'>
+    <img className='img1' src={Devlivery} alt="" data-aos="zoom-in-up" />               
+            </div>
+            <div className='disc' data-aos="zoom-in-up">
+            <h1 className='head'>Anu Delivery</h1>
+<p>ANU Food Delivery is your trusted partner for quick and convenient food delivery. We pride ourselves on being the best restaurant in town, offering a diverse menu of healthy and fresh meals, available 24/7. Our dedicated team, led by CEO Ananya Teshome, ensures fast delivery of not just food but also electronics and gifts. </p>
+            <div className='buttons'> <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
+            <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn4'>Live</button></a></div>   
+            <div className='stack'>     
+           <p> <FaCheckCircle />&nbsp;Wordpress</p>
+            <p><FaCheckCircle />&nbsp;Plugins</p>
+            {/* <p>Css</p> */}
+            <p > <FaCheckCircle />&nbsp;Responsiveness</p>
+            </div>  
+            </div>
+            </div>
+        
+</div>
+<div className="project1">
+{/* <h1 className='project_title'>Project</h1> */}
+<div className="grid">
+    <div className="img">
+    <img className='img1' src={sabroso} alt="" data-aos="zoom-in-up"  />
+    </div>
+<div className="discription" data-aos="zoom-in-up">
+<h1 className='head'>Sabroso Recipe Finder</h1>
+            <p>Sabroso is a vibrant culinary platform designed to connect food enthusiasts with an array of delicious recipes and cooking tips. The site offers a user-friendly interface where visitors can explore diverse cuisines, discover seasonal ingredients, and share their own culinary creations. With a focus on community engagement, Sabroso encourages users to interact through comments and recipe ratings, fostering a love for cooking. Whether you're a novice or a seasoned chef, Sabroso provides inspiration and resources to elevate your culinary skills.</p>
+            <div className='buttons'><a href="https://github.com/anuteshome/Sabroso" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+          <a href="https://sabrosoo.netlify.app/" target='blank'> <button className='btn4'>Live</button></a>  </div> 
+            <div className='stack'>            
+            <p> <FaCheckCircle />&nbsp;React</p>
+            <p><FaCheckCircle />&nbsp;Hooks</p>
+            <p><FaCheckCircle />&nbsp;Css</p>
+            </div>
+</div>
+</div>
+           
+            
+</div>
+<div className="project3">
+<div className="grid">
+<div>
+<img className='img1' src={Book} alt="" data-aos="zoom-in-up" />
+</div>
+<div data-aos="zoom-in-up">
+<h1 className='head'>Anu Book </h1>
+<p>Discover Anu Book, your gateway to programming success. Dive into an extensive collection of resources, including C++, Python, and React, designed to empower both aspiring and experienced developers. Our mission is to make programming education accessible and affordable while promoting diversity and ethical practices in tech.</p>
+            <div className='buttons'><a href="https://github.com/anuteshome/Anu-Book" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+           <a href="https://anubook.netlify.app/" target='_blank'> <button className='btn4'>Live</button></a></div> 
+           <div className='stack'>  
+         <p><FaCheckCircle />&nbsp; Html-5</p>
+            <p><FaCheckCircle />&nbsp;CSS</p>
+            <p><FaCheckCircle />&nbsp;Javascript</p>
+            <p ><FaCheckCircle />&nbsp; Responsiveness</p>
+            </div>
+</div>   
+</div>
+</div>
+
+<div className="project4">
+<div className="grid">
+<div>
+<img className='img1' src={AK} alt="" data-aos="zoom-in-up" />
+</div>
+<div data-aos="zoom-in-up">
+<h1 className='head'>AK Archiectural design</h1>
+<p>Welcome to AK, where innovative design meets sustainable living.  We transform spaces through functional solutions, ensuring every detail reflects our clients' unique visions. Join us in shaping the future of architecture with creativity and practicality at the forefront. Explore our services, including consulting, building, and designing, and let’s bring your dream project to life.</p>
+            <div className='buttons'> <a href="https://aksitess.netlify.app/#" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
+           <a href="https://aksitess.netlify.app/#"target='blank'><button className='btn4'>Live</button></a>
+           </div> 
+           <div className='stack'>  
+            <p> <FaCheckCircle />&nbsp;Html-5</p>
+            <p><FaCheckCircle />&nbsp;Css</p>
+            <p ><FaCheckCircle />&nbsp; Responsiveness</p>
+            </div>
+</div>
+
+</div>
+
+            
+</div>
+
+<div className="project5">
+    <div className="grid">
+        <div>
+        <img className='img1' src={Apple} alt="" data-aos="zoom-in-up" />
+        </div>
+        <div data-aos="zoom-in-up">
+        <h1 className='head'>Apple</h1>
+<p>Welcome to the Apple Website, your gateway to innovative technology and premium products. Explore our range of cutting-edge devices, including the powerful MacBook Pro, the versatile iPhone 11 Pro, and the stylish Apple Watch with its Always-On Retina display. Discover exceptional audio with AirPods Pro and enjoy seamless integration across all your devices. With features like monthly payment options and trade-in programs, accessing the latest technology has never been easier.</p>
+           <div className='buttons'> <a href="https://anuapple.netlify.app/#" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+         <a href="https://anuapple.netlify.app/#" target='blank'> <button className='btn4'>Live</button></a>  
+           </div> 
+           <div className='stack'>  
+            <p><FaCheckCircle />&nbsp; Html-5</p>
+            <p><FaCheckCircle />&nbsp;Css</p>
+            <p ><FaCheckCircle />&nbsp; Responsiveness</p>
+            </div>
+        </div>
+    </div>
+            
+</div>
+          
+        </div>
+    );
+}
+
+export default Project;

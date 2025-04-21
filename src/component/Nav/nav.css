@@ -1,0 +1,24 @@
+/* variable */
+:root{
+    --primary:#F5F5F5;
+    --secondary:#333333;
+    --three:#FAFAFA;
+    --four:#FF6347;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all_hero{
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

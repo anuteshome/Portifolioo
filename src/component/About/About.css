@@ -1,0 +1,154 @@
+:root {
+    --primary: #F5F5F5;
+    --secondary: #333333;
+    --three: #FAFAFA;
+    --four: #f3725b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body.dark-mode .About_title,
+body.dark-mode .About_p,
+body.dark-mode .footer,
+body.dark-mode .footer_about ,
+body.dark-mode li{
+    color: var(--primary);
+}
+
+.About_image{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin-left: 3.1em;
+    margin-bottom: 1rem;
+    
+}
+.About_p{
+    margin-bottom: 7rem;
+}
+.design1{
+    width: 70px;
+    height: 70px;
+    /* background: var(--secondary); */
+    border-radius: 50%;
+    position: absolute;
+    top:38rem;
+    left: 12rem;
+    opacity: 0.4;
+
+}
+.design2{
+    width: 50px;
+    height: 50px;
+    /* background: var(--four); */
+    border-radius: 50%;
+    opacity: 0.6;
+    position: absolute;
+    top:50rem;
+    left: 4rem;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    /* background:var(--secondary);
+    width: 100%; */
+     
+ }
+
+ .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+
+
+     
+ }
+ li{
+    list-style: none;
+    color: var(--secondary);
+ }
+
+@media screen and (min-width:620px){
+    .About_image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Ensures the image fits within the circular container */
+      }
+      
+      .About_image img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover; /* Ensures the image covers the container without distortion */
+      }
+   
+    .About_title{
+        text-align: center;
+    }
+    .footer_about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin-top: -5rem;
+        margin-bottom: 5rem;
+    
+         
+     }
+}
+
+/* service_sj6bljv */
+/* template_acwl5jd */
+/* UYXdJaJAvnHQw2fdQ */
+
+@media screen and (min-width:960px) {
+    .About_image {
+        width: 300px;
+        height: 270px;
+        border-radius: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Ensures the image fits within the circular container */
+        animation-timeline: view();
+        animation: apper linear 1s;
+      }
+      .About_title{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .About_p{
+        padding: 1em 12em 0em 12em;
+    }
+    .footer_about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin-top: -5rem;
+        margin-bottom: 5rem;
+    
+         
+     }
+
+}

@@ -1,0 +1,181 @@
+:root {
+    --primary: #F5F5F5;
+    --secondary: #333333;
+    --three: #FAFAFA;
+    --four: #f3725b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body.dark-mode .label,
+body.dark-mode .input,
+body.dark-mode .textarea,
+body.dark-mode .btn_send,
+body.dark-mode .Contact_title,
+body.dark-mode .footer {
+    color: var(--primary);
+}
+
+
+
+
+.label{
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+.input{
+    padding: 0.5em 3em 0.5em 3em;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd6d6;
+}
+
+.textarea{
+    padding: 2em 3em 2em 3em;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd6d6;
+
+}
+.btn_send{
+    margin-top: 1rem;
+    width:100px;
+    height: 55px;
+    background:#615e5e;
+    color: #e4e0e0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 15px;
+    font-size: 0.9rem;
+font-weight: bold;
+margin-left: 4rem;   
+}
+.Contact_title{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 2rem;
+   /* background:var(--secondary);
+   width: 100%; */
+    
+}
+
+/* for tablet */
+@media  screen and (min-width:620px){
+    
+    .Contact_title{
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+
+
+    .label{
+        color: var(--secondary);
+        font-size: 1.7rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 5rem;
+    }
+    .input{
+        padding: 1em 6em 1em 6em;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .textarea{
+        padding: 4em 6em 4em 6em;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    
+
+    .btn_send{
+        margin-top: 1rem;
+        width:150px;
+        height: 60px;
+        background:#615e5e;
+        color: #e4e0e0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: auto;
+
+    }
+}
+
+@media screen and (min-width:960px){
+    .input{
+        padding: 1em 6em 1em 6em;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .label{
+        color: var(--secondary);
+        font-size: 1.7rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        margin-left: auto; 
+         margin-right: auto;
+        padding-left: 20rem;
+
+    }
+
+    .btn_send{
+        margin-top: 1rem;
+        width:150px;
+        height: 50px;
+        background:#615e5e;
+        color: #e4e0e0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: auto;
+
+    }
+}
