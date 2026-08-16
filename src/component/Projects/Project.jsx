@@ -141,9 +141,9 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
            <a href="https://mekaneselam.vercel.app/" target='blank'><button className='btn4'>Live</button></a>
            </div> 
            <div className='stack'>  
-            <p> <FaCheckCircle />&nbsp;Html-5</p>
-            <p><FaCheckCircle />&nbsp;Css</p>
-            <p ><FaCheckCircle />&nbsp; Responsiveness</p>
+            <p> <FaCheckCircle />&nbsp;Flutter</p>
+            <p><FaCheckCircle />&nbsp;Hive</p>
+            <p ><FaCheckCircle />&nbsp;Riverpod</p>
             </div>
 </div>
 
