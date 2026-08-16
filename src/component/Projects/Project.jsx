@@ -27,6 +27,27 @@ function Project() {
          },[]);
     return (
         <div className='Projects'>
+
+          <div className="project2">
+<div className="grid">
+    <div className='images'>
+    <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
+            </div>
+            <div className='disc' data-aos="zoom-in-up">
+            <h1 className='head'>Velkap</h1>
+<div>
+  <p>
+    <strong>Velkap</strong> is a real estate investment and property management
+    platform. I contributed to both backend and frontend development, with a
+    strong focus on financial and investment logic,
+    Developed ash flow and retention calculations,
+    Implemented investment and return calculations,
+    Built financial business logic and APIs,
+    Integrated backend services with the frontend,
+    Worked with investment and property data
+  </p>
+</div>
+
 <div className="project1">
 <h1 className='project_title'>Project</h1>
 <div className="grid">
@@ -55,25 +76,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             
 </div>
 
-<div className="project2">
-<div className="grid">
-    <div className='images'>
-    <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
-            </div>
-            <div className='disc' data-aos="zoom-in-up">
-            <h1 className='head'>Velkap</h1>
-<div>
-  <p>
-    <strong>Velkap</strong> is a real estate investment and property management
-    platform. I contributed to both backend and frontend development, with a
-    strong focus on financial and investment logic,
-    Developed ash flow and retention calculations,
-    Implemented investment and return calculations,
-    Built financial business logic and APIs,
-    Integrated backend services with the frontend,
-    Worked with investment and property data
-  </p>
-</div>
+
             <div className='buttons'> <a  disabled ><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
             <a href="https://velkap.com/" target='blank'><button className='btn4'>Live</button></a></div>   
             <div className='stack'>     
