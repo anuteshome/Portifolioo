@@ -27,8 +27,8 @@ function Project() {
          },[]);
     return (
         <div className='Projects'>
-
-          <div className="project2">
+<h1 className='project_title'>Projects</h1>
+<div className="project2">
 <div className="grid">
     <div className='images'>
     <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
@@ -47,9 +47,20 @@ function Project() {
     Worked with investment and property data
   </p>
 </div>
-
+            <div className='buttons'> <a  disabled ><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
+            <a href="https://velkap.com/" target='blank'><button className='btn4'>Live</button></a></div>   
+            <div className='stack'>     
+           <p> <FaCheckCircle />&nbsp; Laravel</p>
+            <p><FaCheckCircle />&nbsp;Next.js </p>
+            {/* <p>Css</p> */}
+            <p > <FaCheckCircle />&nbsp;MySQL</p>
+             <p > <FaCheckCircle />&nbsp;REST APIs</p>
+            </div>  
+            </div>
+            </div>
+        
+</div>
 <div className="project1">
-<h1 className='project_title'>Project</h1>
 <div className="grid">
     <div className="img">
     <img className='img1' src={Kuriftu} alt="" data-aos="zoom-in-up"  />
@@ -74,21 +85,6 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 </div>
            
             
-</div>
-
-
-            <div className='buttons'> <a  disabled ><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
-            <a href="https://velkap.com/" target='blank'><button className='btn4'>Live</button></a></div>   
-            <div className='stack'>     
-           <p> <FaCheckCircle />&nbsp; Laravel</p>
-            <p><FaCheckCircle />&nbsp;Next.js </p>
-            {/* <p>Css</p> */}
-            <p > <FaCheckCircle />&nbsp;MySQL</p>
-             <p > <FaCheckCircle />&nbsp;REST APIs</p>
-            </div>  
-            </div>
-            </div>
-        
 </div>
 <div className="project1">
 {/* <h1 className='project_title'>Project</h1> */}
@@ -155,7 +151,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             
 </div>
 
-{/* <div className="project5">
+<div className="project5">
     <div className="grid">
         <div>
         <img className='img1' src={Apple} alt="" data-aos="zoom-in-up" />
@@ -174,7 +170,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
         </div>
     </div>
             
-</div> */}
+</div>
           
         </div>
     );
