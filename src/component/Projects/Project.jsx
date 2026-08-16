@@ -134,10 +134,10 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 <img className='img1' src={AK} alt="" data-aos="zoom-in-up" />
 </div>
 <div data-aos="zoom-in-up">
-<h1 className='head'>AK Archiectural design</h1>
+<h1 className='head'>MK</h1>
 <p>Welcome to AK, where innovative design meets sustainable living.  We transform spaces through functional solutions, ensuring every detail reflects our clients' unique visions. Join us in shaping the future of architecture with creativity and practicality at the forefront. Explore our services, including consulting, building, and designing, and let’s bring your dream project to life.</p>
-            <div className='buttons'> <a href="https://aksitess.netlify.app/#" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
-           <a href="https://aksitess.netlify.app/#"target='blank'><button className='btn4'>Live</button></a>
+            <div className='buttons'> <a href="https://github.com/anuteshome/Mekane_Selam_Web" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
+           <a href="mekaneselam.vercel.app"target='blank'><button className='btn4'>Live</button></a>
            </div> 
            <div className='stack'>  
             <p> <FaCheckCircle />&nbsp;Html-5</p>
