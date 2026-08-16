@@ -82,31 +82,10 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             <p><FaCheckCircle />&nbsp;Tailwind Css</p>
             </div>
 </div>
+</div>          
 </div>
-           
-            
-</div>
-<div className="project1">
-{/* <h1 className='project_title'>Project</h1> */}
-<div className="grid">
-    <div className="img">
-    <img className='img1' src={sabroso} alt="" data-aos="zoom-in-up"  />
-    </div>
-<div className="discription" data-aos="zoom-in-up">
-<h1 className='head'>Sabroso Recipe Finder</h1>
-            <p>Sabroso is a vibrant culinary platform designed to connect food enthusiasts with an array of delicious recipes and cooking tips. The site offers a user-friendly interface where visitors can explore diverse cuisines, discover seasonal ingredients, and share their own culinary creations. With a focus on community engagement, Sabroso encourages users to interact through comments and recipe ratings, fostering a love for cooking. Whether you're a novice or a seasoned chef, Sabroso provides inspiration and resources to elevate your culinary skills.</p>
-            <div className='buttons'><a href="https://github.com/anuteshome/Sabroso" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
-          <a href="https://sabrosoo.netlify.app/" target='blank'> <button className='btn4'>Live</button></a>  </div> 
-            <div className='stack'>            
-            <p> <FaCheckCircle />&nbsp;React</p>
-            <p><FaCheckCircle />&nbsp;Hooks</p>
-            <p><FaCheckCircle />&nbsp;Css</p>
-            </div>
-</div>
-</div>
-           
-            
-</div>
+
+
 <div className="project3">
 <div className="grid">
 <div>
@@ -146,12 +125,31 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             </div>
 </div>
 
+</div>         
 </div>
 
-            
+<div className="project1">
+{/* <h1 className='project_title'>Project</h1> */}
+<div className="grid">
+    <div className="img">
+    <img className='img1' src={sabroso} alt="" data-aos="zoom-in-up"  />
+    </div>
+<div className="discription" data-aos="zoom-in-up">
+<h1 className='head'>Sabroso Recipe Finder</h1>
+            <p>Sabroso is a vibrant culinary platform designed to connect food enthusiasts with an array of delicious recipes and cooking tips. The site offers a user-friendly interface where visitors can explore diverse cuisines, discover seasonal ingredients, and share their own culinary creations. With a focus on community engagement, Sabroso encourages users to interact through comments and recipe ratings, fostering a love for cooking. Whether you're a novice or a seasoned chef, Sabroso provides inspiration and resources to elevate your culinary skills.</p>
+            <div className='buttons'><a href="https://github.com/anuteshome/Sabroso" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+          <a href="https://sabrosoo.netlify.app/" target='blank'> <button className='btn4'>Live</button></a>  </div> 
+            <div className='stack'>            
+            <p> <FaCheckCircle />&nbsp;React</p>
+            <p><FaCheckCircle />&nbsp;Hooks</p>
+            <p><FaCheckCircle />&nbsp;Css</p>
+            </div>
+</div>
+</div>       
 </div>
 
-<div className="project5">
+
+{/* <div className="project5">
     <div className="grid">
         <div>
         <img className='img1' src={Apple} alt="" data-aos="zoom-in-up" />
@@ -170,7 +168,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
         </div>
     </div>
             
-</div>
+</div> */}
           
         </div>
     );
