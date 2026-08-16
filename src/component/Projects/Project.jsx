@@ -58,7 +58,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
     <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
             </div>
             <div className='disc' data-aos="zoom-in-up">
-            <h1 className='head'>Anu Delivery</h1>
+            <h1 className='head'>Velakp</h1>
 <div>
   <p>
     <strong>Velkap</strong> is a real estate investment and property management
@@ -69,20 +69,6 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
     Built financial business logic and APIs,
     Integrated backend services with the frontend,
     Worked with investment and property data
-  </p>
-
-  {/* <p><strong>Key Contributions:</strong></p>
-  <ul>
-    <li>Developed ash flow and retention calculations</li>
-    <li>Implemented investment and return calculations</li>
-    <li>Built financial business logic and APIs</li>
-    <li>Integrated backend services with the frontend</li>
-    <li>Worked with investment and property data</li>
-  </ul> */}
-
-  <p>
-    <strong>Tech Stack:</strong>
-    Laravel · PHP · Next.js · React · MySQL · REST APIs
   </p>
 </div>
             <div className='buttons'> <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
