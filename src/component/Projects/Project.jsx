@@ -13,6 +13,7 @@ import Apple from '../../assets/Apple.png'
 import Kuriftu from "../../assets/kuriftu.png"
 import Velkap from "../../assets/Velkap.png"
 import ZenQr from "../../assets/Zenqr.png"
+import MK from "../../assets/MK.png"
 
 // icon
 
@@ -131,7 +132,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 <div className="project4">
 <div className="grid">
 <div>
-<img className='img1' src={AK} alt="" data-aos="zoom-in-up" />
+<img className='img1' src={MK} alt="" data-aos="zoom-in-up" />
 </div>
 <div data-aos="zoom-in-up">
 <h1 className='head'>MK</h1>
