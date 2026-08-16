@@ -11,6 +11,7 @@ import Book from '../../assets/Book.png'
 import AK from '../../assets/AK.png'
 import Apple from '../../assets/Apple.png'
 import Kuriftu from "../../assets/kuriftu.png"
+import Velkap from "../../assets/Velkap.png"
 
 // icon
 
@@ -54,11 +55,31 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 <div className="project2">
 <div className="grid">
     <div className='images'>
-    <img className='img1' src={Devlivery} alt="" data-aos="zoom-in-up" />               
+    <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
             </div>
             <div className='disc' data-aos="zoom-in-up">
             <h1 className='head'>Anu Delivery</h1>
-<p>ANU Food Delivery is your trusted partner for quick and convenient food delivery. We pride ourselves on being the best restaurant in town, offering a diverse menu of healthy and fresh meals, available 24/7. Our dedicated team, led by CEO Ananya Teshome, ensures fast delivery of not just food but also electronics and gifts. </p>
+<div>
+  <p>
+    <strong>Velkap</strong> is a real estate investment and property management
+    platform. I contributed to both backend and frontend development, with a
+    strong focus on financial and investment logic.
+  </p>
+
+  <p><strong>Key Contributions:</strong></p>
+  <ul>
+    <li>Developed ash flow and retention calculations</li>
+    <li>Implemented investment and return calculations</li>
+    <li>Built financial business logic and APIs</li>
+    <li>Integrated backend services with the frontend</li>
+    <li>Worked with investment and property data</li>
+  </ul>
+
+  <p>
+    <strong>Tech Stack:</strong>
+    Laravel · PHP · Next.js · React · MySQL · REST APIs
+  </p>
+</div>
             <div className='buttons'> <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
             <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn4'>Live</button></a></div>   
             <div className='stack'>     
