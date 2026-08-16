@@ -43,8 +43,9 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
           <a href="https://kuriftuloyality.netlify.app/" target='blank'> <button className='btn4'>Live</button></a>  </div> 
             <div className='stack'>            
             <p> <FaCheckCircle />&nbsp;React</p>
-            <p><FaCheckCircle />&nbsp;Hooks</p>
-            <p><FaCheckCircle />&nbsp;Css</p>
+            <p><FaCheckCircle />&nbsp;React Hooks</p>
+             <p><FaCheckCircle />&nbsp;Supabase</p>
+            <p><FaCheckCircle />&nbsp;Tailwind Css</p>
             </div>
 </div>
 </div>
@@ -58,7 +59,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
     <img className='img1' src={Velkap} alt="" data-aos="zoom-in-up" />               
             </div>
             <div className='disc' data-aos="zoom-in-up">
-            <h1 className='head'>Velakp</h1>
+            <h1 className='head'>Velkap</h1>
 <div>
   <p>
     <strong>Velkap</strong> is a real estate investment and property management
@@ -71,8 +72,8 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
     Worked with investment and property data
   </p>
 </div>
-            <div className='buttons'> <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
-            <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn4'>Live</button></a></div>   
+            <div className='buttons'> <a  disabled ><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
+            <a href="https://velkap.com/" target='blank'><button className='btn4'>Live</button></a></div>   
             <div className='stack'>     
            <p> <FaCheckCircle />&nbsp; Laravel</p>
             <p><FaCheckCircle />&nbsp;Next.js </p>
