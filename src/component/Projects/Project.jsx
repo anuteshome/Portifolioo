@@ -12,6 +12,7 @@ import AK from '../../assets/AK.png'
 import Apple from '../../assets/Apple.png'
 import Kuriftu from "../../assets/kuriftu.png"
 import Velkap from "../../assets/Velkap.png"
+import ZenQr from "../../assets/Zenqr.png"
 
 // icon
 
@@ -109,18 +110,19 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 <div className="project3">
 <div className="grid">
 <div>
-<img className='img1' src={Book} alt="" data-aos="zoom-in-up" />
+<img className='img1' src={ZenQr} alt="" data-aos="zoom-in-up" />
 </div>
 <div data-aos="zoom-in-up">
-<h1 className='head'>Anu Book </h1>
-<p>Discover Anu Book, your gateway to programming success. Dive into an extensive collection of resources, including C++, Python, and React, designed to empower both aspiring and experienced developers. Our mission is to make programming education accessible and affordable while promoting diversity and ethical practices in tech.</p>
-            <div className='buttons'><a href="https://github.com/anuteshome/Anu-Book" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
-           <a href="https://anubook.netlify.app/" target='_blank'> <button className='btn4'>Live</button></a></div> 
+<h1 className='head'>ZenQr</h1>
+<p>ZenQr is a dynamic menu management platform designed to streamline the restaurant experience for both owners and customers. With ZenQr, restaurant owners can effortlessly create and update their menus, ensuring that customers always have access to the latest offerings. The platform's intuitive interface allows for easy navigation and customization, making it simple to manage daily specials, seasonal items, and pricing. Whether you're running a cozy cafe or a bustling bistro, ZenQr provides the tools you need to showcase your cuisine and enhance your customers' dining experience.</p>
+            <div className='buttons'><a href="https://github.com/anuteshome/ZenQr " target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a>
+           <a href="https://bistroqr.vercel.app/" target='_blank'> <button className='btn4'>Live</button></a></div> 
            <div className='stack'>  
-         <p><FaCheckCircle />&nbsp; Html-5</p>
-            <p><FaCheckCircle />&nbsp;CSS</p>
-            <p><FaCheckCircle />&nbsp;Javascript</p>
-            <p ><FaCheckCircle />&nbsp; Responsiveness</p>
+            <p ><FaCheckCircle />&nbsp; Typescript</p>
+         <p><FaCheckCircle />&nbsp; NextJs</p>
+            <p><FaCheckCircle />&nbsp;Tailwind</p>
+            <p><FaCheckCircle />&nbsp;Subasbase</p>
+            
             </div>
 </div>   
 </div>
