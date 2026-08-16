@@ -135,9 +135,9 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
 </div>
 <div data-aos="zoom-in-up">
 <h1 className='head'>MK</h1>
-<p>Welcome to AK, where innovative design meets sustainable living.  We transform spaces through functional solutions, ensuring every detail reflects our clients' unique visions. Join us in shaping the future of architecture with creativity and practicality at the forefront. Explore our services, including consulting, building, and designing, and let’s bring your dream project to life.</p>
+<p><strong>MK</strong> is a mobile learning app designed to organize Ethiopian Orthodox Church Sunday School resources and make them easily accessible to students. <strong>Key Features:</strong> Organizes learning resources by <strong>grade, subject, and chapter</strong>. Provides structured and easy access to Sunday School materials. Supports <strong>offline access</strong> for flexible learning. Simple and user-friendly mobile experience. Centralizes previously scattered educational resources.</p>
             <div className='buttons'> <a href="https://github.com/anuteshome/Mekane_Selam_Web" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
-           <a href="mekaneselam.vercel.app"target='blank'><button className='btn4'>Live</button></a>
+           <a href="https://mekaneselam.vercel.app/" target='blank'><button className='btn4'>Live</button></a>
            </div> 
            <div className='stack'>  
             <p> <FaCheckCircle />&nbsp;Html-5</p>
