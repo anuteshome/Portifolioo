@@ -63,17 +63,22 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
   <p>
     <strong>Velkap</strong> is a real estate investment and property management
     platform. I contributed to both backend and frontend development, with a
-    strong focus on financial and investment logic.
+    strong focus on financial and investment logic,
+    Developed ash flow and retention calculations,
+    Implemented investment and return calculations,
+    Built financial business logic and APIs,
+    Integrated backend services with the frontend,
+    Worked with investment and property data
   </p>
 
-  <p><strong>Key Contributions:</strong></p>
+  {/* <p><strong>Key Contributions:</strong></p>
   <ul>
     <li>Developed ash flow and retention calculations</li>
     <li>Implemented investment and return calculations</li>
     <li>Built financial business logic and APIs</li>
     <li>Integrated backend services with the frontend</li>
     <li>Worked with investment and property data</li>
-  </ul>
+  </ul> */}
 
   <p>
     <strong>Tech Stack:</strong>
@@ -83,10 +88,11 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             <div className='buttons'> <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn3'><FaGithub /> &nbsp;View on Github</button> </a> 
             <a href="https://dev-anudelivery.pantheonsite.io/" target='blank'><button className='btn4'>Live</button></a></div>   
             <div className='stack'>     
-           <p> <FaCheckCircle />&nbsp;Wordpress</p>
-            <p><FaCheckCircle />&nbsp;Plugins</p>
+           <p> <FaCheckCircle />&nbsp; Laravel</p>
+            <p><FaCheckCircle />&nbsp;Next.js </p>
             {/* <p>Css</p> */}
-            <p > <FaCheckCircle />&nbsp;Responsiveness</p>
+            <p > <FaCheckCircle />&nbsp;MySQL</p>
+             <p > <FaCheckCircle />&nbsp;REST APIs</p>
             </div>  
             </div>
             </div>
