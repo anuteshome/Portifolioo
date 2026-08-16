@@ -35,7 +35,7 @@ left:10,
                  Excited to tackle new challenges and collaborate on innovative projects. Let’s connect!
        </p>
       <div className='buts'>
-        <a href="https://drive.google.com/file/d/1jgOEa3d1llinWNuV08Br3VsDztBdzG20/view?usp=sharing" target='blank'><button className='btn1'>My Resume</button></a>
+        <a href="https://drive.google.com/file/d/1qC2ivvBwKa0tTAgMnTR5eyZQ-oIsBwIW/view?usp=drive_link" target='blank'><button className='btn1'>My Resume</button></a>
         <a href="#contact" style={{smoth:'true',duration:500}}>
           <button className='btn2'>Connect with me</button>
         </a>     
