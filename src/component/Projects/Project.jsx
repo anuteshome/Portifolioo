@@ -152,7 +152,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
             
 </div>
 
-<div className="project5">
+{/* <div className="project5">
     <div className="grid">
         <div>
         <img className='img1' src={Apple} alt="" data-aos="zoom-in-up" />
@@ -171,7 +171,7 @@ Join today and let your loyalty unlock luxury with Kuriftu.</p>
         </div>
     </div>
             
-</div>
+</div> */}
           
         </div>
     );
