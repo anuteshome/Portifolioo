@@ -13,7 +13,7 @@ import Apple from '../../assets/Apple.png'
 import Kuriftu from "../../assets/kuriftu.png"
 import Velkap from "../../assets/Velkap.png"
 import ZenQr from "../../assets/Zenqr.png"
-import MK from "../../assets/MK.png"
+import MK from "../../assets/mk.png"
 
 // icon
 
